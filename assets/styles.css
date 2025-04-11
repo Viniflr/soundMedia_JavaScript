@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #021024;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+    background: #052659;
+    border-radius: 0.7rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #C1E8FF;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+button {
+    background: #5483B3;
+    color: #C1E8FF;
+    font-size: 1.2rem;
+    border: 1px transparent;
+    border-radius: 0.7rem;
+    width: 7rem;
+    height: 6rem;
+    transition: ease 0.4s;
+}
+
+button:hover  {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
